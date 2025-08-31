@@ -8,6 +8,8 @@ public class App {
 
         System.out.println("Welcome to a conversor of temperature");
         System.out.println("Enter the value in Celsius to convert a Fahrenheit and Kelvin");
+
+        
         Double value = sc.nextDouble();
 
         Double fahrenheit = (value * 1.8 + 32);
